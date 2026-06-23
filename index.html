@@ -543,7 +543,7 @@
     <header>
         <div class="logo-container">
             <div class="logo-icon"></div>
-            <div class="logo-text">NET-MORPH</div>
+            <div class="logo-text">Ring and Tree topology</div>
         </div>
         <nav>
             <ul>
@@ -565,7 +565,7 @@
                     Ring and Tree topology 
                 </h1>
                 <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem auto;">
-                    Interactive Ring and Tree Topology Simulator for visualizing data flow, network failures, structural behavior, and performance analysis in real time.
+                    Interactive Ring and Tree Topology Simulator for visualizing data flow, network failures, structural behavior, and performance analysis in real time._by 🔥Athul S🔥
                 </p>
                 <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
                     <button class="btn" onclick="routeTo('ring')">Launch Ring Simulator</button>
@@ -683,15 +683,15 @@
                     <div>
                         <h3>Simulation Scaler Variables</h3>
                         <div class="slider-container">
-                            <div class="slider-header"><span>Target Footprint Node Metric Count</span><span id="val-nodes">12</span></div>
+                            <div class="slider-header"><span>Total Network Nodes</span><span id="val-nodes">12</span></div>
                             <input type="range" id="slide-nodes" min="4" max="40" value="12" oninput="updateComparison()">
                         </div>
                         <div class="slider-container">
-                            <div class="slider-header"><span>Cable Standard Unit Value Pricing ($/m)</span><span id="val-cable">25</span></div>
+                            <div class="slider-header"><span>Cable Cost ($/m)</span><span id="val-cable">25</span></div>
                             <input type="range" id="slide-cable" min="10" max="100" value="25" oninput="updateComparison()">
                         </div>
                         <div class="slider-container">
-                            <div class="slider-header"><span>Hub Concentrator Fixed Infrastructure Cost ($)</span><span id="val-hub">250</span></div>
+                            <div class="slider-header"><span>Hub Cost ($)</span><span id="val-hub">250</span></div>
                             <input type="range" id="slide-hub" min="100" max="1000" value="250" oninput="updateComparison()">
                         </div>
                     </div>
@@ -701,17 +701,17 @@
                         <div style="margin-top:0.5rem;">
                             <h4 style="color:var(--primary)">Ring Distribution Scheme</h4>
                             <div class="metrics-card">
-                                <div class="metric-box"><div>Total Pricing Layout</div><div class="metric-val" id="ring-cost">$0</div></div>
-                                <div class="metric-box"><div>System Resilience</div><div class="metric-val" id="ring-rel">Low</div></div>
-                                <div class="metric-box"><div>Growth Scalability</div><div class="metric-val" id="ring-scale">Med</div></div>
+                                <div class="metric-box"><div>💰Total Cost</div><div class="metric-val" id="ring-cost">$0</div></div>
+                                <div class="metric-box"><div>🛡️Reliability</div><div class="metric-val" id="ring-rel">Low</div></div>
+                                <div class="metric-box"><div>📈Growth Scalability</div><div class="metric-val" id="ring-scale">Med</div></div>
                             </div>
                         </div>
                         <div style="margin-top:1.5rem;">
                             <h4 style="color:var(--secondary)">Hierarchical Branching Tree Scheme</h4>
                             <div class="metrics-card">
-                                <div class="metric-box"><div>Total Pricing Layout</div><div class="metric-val" id="tree-cost">$0</div></div>
-                                <div class="metric-box"><div>System Resilience</div><div class="metric-val" id="tree-rel">High</div></div>
-                                <div class="metric-box"><div>Growth Scalability</div><div class="metric-val" id="tree-scale">High</div></div>
+                                <div class="metric-box"><div>💰Total Cost</div><div class="metric-val" id="tree-cost">$0</div></div>
+                                <div class="metric-box"><div>🛡️Reliability</div><div class="metric-val" id="tree-rel">High</div></div>
+                                <div class="metric-box"><div>📈Growth Scalability</div><div class="metric-val" id="tree-scale">High</div></div>
                             </div>
                         </div>
                     </div>
